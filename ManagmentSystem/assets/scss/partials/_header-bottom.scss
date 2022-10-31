@@ -1,6 +1,19 @@
 .scrollLink {
   text-decoration: none;
 }
+.basket-btn {
+  width: 50px;
+  border-radius: 36%;
+  background-color: white;
+  color: grey;
+  border: 1px solid rgba(128, 128, 128, 0.285);
+  transition: all 0.3s;
+}
+
+.basket-btn:hover {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
 .font-fix {
   list-style: none;
   display: flex;
@@ -22,31 +35,30 @@ a p {
 }
 a p:hover {
   color: red;
-      }
-.loginBtn{
-    background: rgb(251, 122, 9);
-    border: none;
-    width: 100px;
-    height: 40px;
-    border-radius: 20%;
-    color: white  ;
-    font-size: 20px;
-
-      &:hover{
-        background-color: red;
-      }
 }
-.logoutBtn{ 
+.loginBtn {
+  background: rgb(251, 122, 9);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 20%;
+  color: white;
+  font-size: 20px;
+
+  &:hover {
+    background-color: red;
+  }
+}
+.logoutBtn {
   background: rgb(4, 134, 247);
   border: none;
   width: 100px;
   height: 40px;
   border-radius: 20%;
-  color: white  ;
+  color: white;
   font-size: 20px;
 
-    &:hover{
+  &:hover {
     background-color: rgb(38, 0, 255);
   }
-
 }
